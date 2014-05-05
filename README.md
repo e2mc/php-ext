@@ -51,7 +51,7 @@ PHP_FUNCTION(e2mc_test);
     		if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "s", &arg, &arg_len) == FAILURE) {
         		return;
     		}
-    		len = spprintf(&strg, 0, "Your input string: %s/n", arg);
+    		len = spprintf(&strg, 0, "Your input string: %s\n", arg);
     		RETURN_STRINGL(strg, len, 0);
 		}
 保存退出。
