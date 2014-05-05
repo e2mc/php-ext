@@ -9,12 +9,9 @@ php扩展开发
 * 虚拟机中源码安装php 
  
  
- 		./configure --prefix=/home/vagrant/local/ --enable-debug --enable-maintainer-zts --with-config-file-path=/home/vagrant/local
- 
- 	make 
- 
-	make install 
- 
- 	make clean
+ 		./configure --prefix=/home/vagrant/local/php --enable-debug --enable-maintainer-zts --with-config-file-path=/home/vagrant/local/php/etc
+ 		make 
+		make install 
+ 		make clean
  
  
