@@ -1,4 +1,6 @@
 
+http://www.ndpsoftware.com/git-cheatsheet.html
+
 Git配置
 
 	git config --global user.name "robbin"  
