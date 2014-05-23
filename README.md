@@ -10,8 +10,9 @@ php扩展开发
 		http://www.vagrantbox.es/
 	
 * 虚拟机中源码安装php 
- 
- 
+
+ 		
+ 		sudo apt-get install libxml2-dev
  		./configure --prefix=/home/vagrant/local/php --enable-debug --enable-maintainer-zts --with-config-file-path=/home/vagrant/local/php/etc
  		make 
 		make install 
