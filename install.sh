@@ -47,6 +47,6 @@ cd nginx-1.6.0
 ./configure \
     --prefix=/home/vagrant/local/nginx \
     --with-pcre=/home/vagrant/src/pcre-8.35 \
-    --with-zlib=/home/vagrant/src/zlib-1.2.8.tar.gz
+    --with-zlib=/home/vagrant/src/zlib-1.2.8
 make 
 make install
